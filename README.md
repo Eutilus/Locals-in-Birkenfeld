@@ -1,17 +1,18 @@
-## Repository:
+## Requirements
 
-## Projekt zum Laufen bringen:
+Node, Npm and Vue have to be installed.
+Run `npm install -g @vue/cli` to install vue cli.
 
-## --> Voraussetzungen:
+## Start the project
 
-## Node, Npm und Vue sind installiert
+Run `git clone https://maiknrml@bitbucket.org/maiknrml/locals-in-birkenfeld.git` to clone the repository.
 
-## 1) Projekt klonen
+Navigate with `cd locals-in-birkenfeld` to the cloned repository.
 
-## 2) Navigieren ins Root Verzeichnis
+Run `npm i` to install the node_modules.
 
-## 3) Befehl: npm install
+Run `npm run serve` for a dev server (Compiles and hot-reloads for development). Navigate to `http://localhost:8080/`.
 
-## 4) Befehl: npm run serve (Compiles and hot-reloads for development)
+Navigate with `cd backend` to the server folder.
 
-## **\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***\*\*\***\*\***\*\***\*\***\*\*\*\***\*\***\*\***\*\***
+Run `node index.js` to start your local node server. Navigate to `http://localhost:5000/companies` to check the connection
